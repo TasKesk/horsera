@@ -1,0 +1,1 @@
+<h1>Welcome!</h1>This is Horsera, the ultimate online service builder. You can add modules and use them, such as Simple Account Manager, or Simple Messaging. Rename the module folder to the name you like to be displayed on the home screen, and put the folder in the "modules" folder. Visit the Horsera repository for a bigger library of modules.<hr/>

@@ -1,0 +1,2 @@
+This is a Horsera module that can make files available for download from the "files" directory inside it.
+It does not support directories.

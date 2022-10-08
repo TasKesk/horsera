@@ -1,0 +1,1 @@
+Make sure you only allow the messages directory to be accessed with the PHP file or the user's data will be open for everyone.

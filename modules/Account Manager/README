@@ -1,0 +1,3 @@
+This is a simple account manager built for Horsera.
+You can build your own account managers with different login methods (e.g. Google) but you will need to set the "u" session value to whatever username you want to use.
+Using two account managers is strongly discouraged.
