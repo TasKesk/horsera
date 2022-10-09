@@ -20,7 +20,7 @@ if(isset($_POST["hormsg_openpage_compose"])){
 	foreach($message_nodes as &$nid){
 		$node=unserialize(file_get_contents("db/mail/".$nid));
 		if($node[0]===$_SESSION["u"] || $node[1]===$_SESSION["u"]){
-			echo "<hr/><strong>From: {$node[0]}<br/>To: {$node[1]}</strong><br/><br/>".str_replace("\n","<br/>",str_replace("<","<x><</x>",$node[2]));
+			echo "<hr/><strong>From: <img src='https://www.gravatar.com/avatar/".md5($node[0])."?d=retro&f=y&s=16'>&nbsp{$node[0]}<br/>To: <img src='https://www.gravatar.com/avatar/".md5($node[1])."?d=retro&f=y&s=16'>&nbsp{$node[1]}</strong><br/><br/>".str_replace("\n","<br/>",str_replace("<","<x><</x>",$node[2]));
 		}
 	}
 }
