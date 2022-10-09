@@ -1,17 +1,22 @@
 # Horsera
+
 This repository will be developed alongside its pre-installed modules.
 
 ## How to build a module??
+
 For a module package you will need the "icon.png" and the "index.php" files.
 The recommended icon size is 16x16. In the index.php file, you put whatever code you want to be run when the module is opened.
 
 ## Add-ons
- Add-ons are not modules, but PHP files that can be put in the "addons" directory. They will be always included in any service.
+
+Add-ons are not modules, but PHP files that can be put in the "addons" directory. They will be always included in any service.
 
 ## Multiple pages in a module
+
 Unfortunately, the URL parameters for a service may be different between installations. You will need to use POST requests wth forms to open other pages.
 
 ## The Horsera standards
+
 To make a flexible module, you will need to follow these standards.
 
   * Avoid using GET requests
@@ -27,3 +32,7 @@ To make a flexible module, you will need to follow these standards.
   * Make sure you protect the "db" folder with you server configuration (.htaccess) but make sure the PHP files can access it.
   * Avoid downloading services or addons from untrusted sources.
   * Install an anti-ddos extension on your HTTP server. (request limit)
+
+### No Horsera?
+
+Horsera's existence is pointless, so after of 76 total hours of development we are announcing that the project will be abandoned. But something better is coming in 2023...
